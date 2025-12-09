@@ -1,5 +1,6 @@
 import React, { createContext, useState, useContext, useEffect } from 'react';
 import { getUser, setUser as saveUser, clearAuth, isAuthenticated } from '../utils/authHelper';
+import api from '../utils/api';
 
 const AuthContext = createContext();
 
@@ -33,8 +34,23 @@ export const AuthProvider = ({ children }) => {
   };
 
   const logout = () => {
-    setUser(null);
-    clearAuth();
+    // Try to notify backend to blacklist the refresh token, but always
+    // clear local auth state to avoid leaving UI in an inconsistent state.
+    const doLogout = async () => {
+      try {
+        const refresh = localStorage.getItem('refresh_token');
+        if (refresh) {
+          await api.post('/auth/logout/', { refresh_token: refresh });
+        }
+      } catch (err) {
+        // ignore network errors; proceed to clear local auth
+      } finally {
+        setUser(null);
+        clearAuth();
+      }
+    };
+
+    void doLogout();
   };
 
   const value = {
