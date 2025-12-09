@@ -285,18 +285,28 @@ GET /api/dashboard/ - Get dashboard data (role-based)
 ## 📸 Screenshots
 
 ### Login Page
+<img width="1919" height="910" alt="image" src="https://github.com/user-attachments/assets/772952c8-08b8-47ab-b70c-62ddbeedff7a" />
+
 Clean and modern authentication interface with form validation.
 
 ### Dashboard
+<img width="1900" height="907" alt="image" src="https://github.com/user-attachments/assets/08726e28-6d1c-483c-97d0-d6e68036e218" />
+
 Role-based dashboards showing personalized statistics and recent activity.
 
 ### Skills Management
+<img width="1891" height="919" alt="image" src="https://github.com/user-attachments/assets/67af1ac8-92ae-4251-bd2e-03a3cceb2ee9" />
+
 Browse, search, and filter skills with admin controls for CRUD operations.
 
 ### Progress Tracking
+<img width="1891" height="907" alt="image" src="https://github.com/user-attachments/assets/2d58d8ef-ca70-44fe-8f4e-253e21ef1454" />
+
 Table view with add, edit, and delete functionality for weekly progress entries.
 
 ### Reports & Analytics
+<img width="1905" height="910" alt="image" src="https://github.com/user-attachments/assets/4606fc49-ea0f-4dc6-a2b4-3f20fe7643d0" />
+
 Interactive charts showing proficiency distribution, top skills, and trends.
 
 ## 🚀 Deployment
