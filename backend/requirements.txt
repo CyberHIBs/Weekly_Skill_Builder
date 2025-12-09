@@ -22,6 +22,9 @@ pymysql==1.1.1
 # PDF generation
 reportlab==3.6.13
 
+# WSGI server
+gunicorn==21.2.0
+
 # Timezone Support
 pytz==2023.3
 
