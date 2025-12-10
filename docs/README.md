@@ -5,7 +5,6 @@ A comprehensive full-stack web application for tracking weekly skill development
 ![Project Status](https://img.shields.io/badge/status-production--ready-green)
 ![Django](https://img.shields.io/badge/Django-5.0-green)
 ![React](https://img.shields.io/badge/React-19-blue)
-![License](https://img.shields.io/badge/license-MIT-blue)
 
 📋 Table of Contents
 
@@ -21,7 +20,6 @@ A comprehensive full-stack web application for tracking weekly skill development
 - [Screenshots](#screenshots)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
-- [License](#license)
 
 🚀 Features
 
@@ -361,19 +359,15 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@yourusername](https://github.com/CyberHIBs)
 - Email: mohammedyousuf8505@gmail.com
 - LinkedIn: (https://bit.ly/48BrgNB)
 ## 🙏 Acknowledgments
 
-- Built as an internship project for Torus Innotech
+- Built as an internship project for Torus Solutions
 - React documentation and community
 - Django REST Framework documentation
 - Tailwind CSS team
