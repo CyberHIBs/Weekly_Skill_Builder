@@ -1,3 +1,6 @@
+
+Note : Hackathon project – built in 24 hours with AI assistance to speed up development.
+
 Weekly Skill Tracker
 
 A comprehensive full-stack web application for tracking weekly skill development progress with analytics and reporting capabilities.
